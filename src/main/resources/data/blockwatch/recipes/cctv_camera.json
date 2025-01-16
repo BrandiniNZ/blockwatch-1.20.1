@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "WWW",
+    "W7W",
+    "WWW"
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:iron_ingot"
+    },
+    "7": {
+      "item": "blockwatch:control_panel"
+    }
+  },
+
+  "result": {
+    "item": "blockwatch:cctv_camera",
+    "count": 3
+  }
+}

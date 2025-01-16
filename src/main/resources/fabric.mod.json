@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "blockwatch",
+	"version": "${version}",
+	"name": "BlockWatch",
+	"description": "I want to add CCTV cameras to Minecraft!",
+	"authors": [
+		"Branden Hall"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/blockwatch/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.brandini.blockwatch.BlockWatch"
+		],
+		"fabric-datagen": [
+			"net.brandini.blockwatch.BlockWatchDataGenerator"
+		],
+		"client" : [
+			"net.brandini.blockwatch.BlockWatchClient"
+		]
+	},
+	"mixins": [
+		"blockwatch.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

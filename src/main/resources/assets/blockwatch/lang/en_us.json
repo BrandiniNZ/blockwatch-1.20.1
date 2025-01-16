@@ -1,0 +1,13 @@
+{
+  "item.blockwatch.item_hall": "Item Hall",
+  "item.blockwatch.camera_lens": "Camera Lens",
+  "item.blockwatch.control_panel": "Control Panel",
+  "item.blockwatch.camera_key_card": "Camera Key Card",
+
+  "itemgroup.blockwatch.blockwatch_items": "BlockWatch Items",
+
+  "block.blockwatch.cctv_camera": "CCTV Camera",
+  "block.blockwatch.dome_camera": "Dome Camera",
+  "block.blockwatch.camera_monitor": "Camera Monitor"
+
+}
