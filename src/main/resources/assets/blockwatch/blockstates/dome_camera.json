@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "facing=down": { "model": "blockwatch:block/dome_camera", "x": 180 },
+    "facing=up": { "model": "blockwatch:block/dome_camera" },
+    "facing=north": { "model": "blockwatch:block/dome_camera" },
+    "facing=south": { "model": "blockwatch:block/dome_camera", "y": 180 },
+    "facing=east": { "model": "blockwatch:block/dome_camera", "y": 90 },
+    "facing=west": { "model": "blockwatch:block/dome_camera", "y": 270 }
+  }
+}

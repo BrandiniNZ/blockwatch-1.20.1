@@ -20,7 +20,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
     @Override
     public void generate(Consumer<RecipeJsonProvider> consumer) {
-        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.CAMERA_MONITOR_BLOCK, 3)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.CAMERA_MONITOR, 3)
                 .pattern("GGG")
                 .pattern("GGG")
                 .pattern(" X ")

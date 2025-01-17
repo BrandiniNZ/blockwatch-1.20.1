@@ -1,0 +1,18 @@
+{
+  "variants": {
+    "facing=north,variant=0": { "model": "blockwatch:block/camera_monitor", "y": 0 },
+    "facing=east,variant=0": { "model": "blockwatch:block/camera_monitor", "y": 90 },
+    "facing=south,variant=0": { "model": "blockwatch:block/camera_monitor", "y": 180 },
+    "facing=west,variant=0": { "model": "blockwatch:block/camera_monitor", "y": 270 },
+
+    "facing=north,variant=1": { "model": "blockwatch:block/camera_monitor_left", "y": 0 },
+    "facing=east,variant=1": { "model": "blockwatch:block/camera_monitor_left", "y": 90 },
+    "facing=south,variant=1": { "model": "blockwatch:block/camera_monitor_left", "y": 180 },
+    "facing=west,variant=1": { "model": "blockwatch:block/camera_monitor_left", "y": 270 },
+
+    "facing=north,variant=2": { "model": "blockwatch:block/camera_monitor_right", "y": 0 },
+    "facing=east,variant=2": { "model": "blockwatch:block/camera_monitor_right", "y": 90 },
+    "facing=south,variant=2": { "model": "blockwatch:block/camera_monitor_right", "y": 180 },
+    "facing=west,variant=2": { "model": "blockwatch:block/camera_monitor_right", "y": 270 }
+  }
+}

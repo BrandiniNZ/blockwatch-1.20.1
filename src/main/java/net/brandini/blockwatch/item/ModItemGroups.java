@@ -26,8 +26,8 @@ public class ModItemGroups {
                         entries.add(CAMERA_KEY_CARD);
 
                         entries.add(ModBlocks.CCTV_CAMERA_BLOCK);
-                        entries.add(ModBlocks.CAMERA_MONITOR_BLOCK);
-
+                        entries.add(ModBlocks.CAMERA_MONITOR);
+                        entries.add(ModBlocks.DOME_CAMERA_BLOCK);
 
                     }).build());
 

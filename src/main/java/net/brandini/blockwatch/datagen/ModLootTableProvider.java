@@ -11,9 +11,6 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
 
     @Override
     public void generate() {
-        addDrop(ModBlocks.CAMERA_MONITOR_BLOCK);
-        addDrop(ModBlocks.DOME_CAMERA_BLOCK);
-        addDrop(ModBlocks.CCTV_CAMERA_BLOCK);
 
     }
 }

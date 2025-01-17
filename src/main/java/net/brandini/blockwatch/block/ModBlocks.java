@@ -4,6 +4,7 @@ import net.brandini.blockwatch.BlockWatch;
 import net.brandini.blockwatch.block.custom.CameraMonitor;
 import net.brandini.blockwatch.block.custom.DomeCamera;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
+import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
@@ -24,16 +25,16 @@ public class ModBlocks {
             new Block(AbstractBlock.Settings.create()
                     .strength(4f)
                     .sounds(BlockSoundGroup.METAL)));
+
     // New DomeCamera (using your custom DomeCamera class)
     public static final Block DOME_CAMERA_BLOCK = registerBlock("dome_camera",
             new DomeCamera(AbstractBlock.Settings.create()
                     .strength(1f)
                     .sounds(BlockSoundGroup.METAL)));
 
-    public static final Block CAMERA_MONITOR_BLOCK = registerBlock("camera_monitor",
-            new CameraMonitor(CameraMonitor.Type.MONITOR, AbstractBlock.Settings.create()
-                    .strength(1f)
-                    .sounds(BlockSoundGroup.METAL)));
+    // New CameraMonitor (using your custom CameraMonitor class)
+    public static final Block CAMERA_MONITOR = registerBlock("camera_monitor",
+            new CameraMonitor(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()));
 
     //helper methods
     private static Block registerBlock(String name, Block block) {

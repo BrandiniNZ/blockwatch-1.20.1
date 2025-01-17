@@ -1,6 +1,7 @@
 package net.brandini.blockwatch;
 
 import net.brandini.blockwatch.block.ModBlocks;
+import net.brandini.blockwatch.block.entity.ModBlockEntities;
 import net.brandini.blockwatch.item.ModItemGroups;
 import net.brandini.blockwatch.item.ModItems;
 import net.fabricmc.api.ModInitializer;
@@ -20,5 +21,7 @@ public class BlockWatch implements ModInitializer {
 		ModItems.registerModItems();
 		//initialize blocks
 		ModBlocks.registerModBlock();
+		//initialize block entities
+		ModBlockEntities.registerAllBlockEntities();
 	}
 }
